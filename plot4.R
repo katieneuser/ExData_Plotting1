@@ -24,6 +24,7 @@ lines(x, final$Sub_metering_3, col="blue")
 legend("topright", 
        col=c("black", "red", "blue"), 
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-       lty=1)
+       lty=1,
+        bty="n")
 plot(x, final$Global_reactive_power, type="l", xlab = "datetime", ylab = "Global_reactive_power")
 dev.off()
